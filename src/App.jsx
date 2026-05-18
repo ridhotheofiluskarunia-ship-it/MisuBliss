@@ -129,19 +129,19 @@ function App() {
           <div style={cardStyle}>
             <h3>Classic Misu</h3>
             <p>Soft & creamy classic tiramisu</p>
-            <h4>24.000</h4>
+            <h4>Rp 24.000</h4>
           </div>
 
           <div style={cardStyle}>
             <h3>Choco Misu</h3>
             <p>Chocolate tiramisu with cocoa topping</p>
-            <h4>25.000</h4>
+            <h4>Rp 25.000</h4>
           </div>
 
           <div style={cardStyle}>
             <h3>Matcha Misu</h3>
             <p>Premium matcha creamy dessert</p>
-            <h4>25.000</h4>
+            <h4>Rp 25.000</h4>
           </div>
         </div>
       </section>
