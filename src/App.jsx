@@ -30,7 +30,7 @@ function App() {
       >
         <h2>MisuBliss ✨</h2>
 
-        <div style={{ display: "flex", gap: "20px" }}>
+        <div style={{ display: "flex", gap: "20px", color: "#6B4226" }}>
           <a href="#home" style={linkStyle}>
             Home
           </a>
@@ -82,7 +82,7 @@ function App() {
           <p
             style={{
               fontSize: "22px",
-              marginBottom: "30px",
+              marginBottom: "30px", color: "#6B4226" 
             }}
           >
             Homemade Tiramisu Dessert with Premium Ingredients ✨
@@ -114,7 +114,7 @@ function App() {
           textAlign: "center",
         }}
       >
-        <h2 style={{ fontSize: "40px", marginBottom: "40px" }}>
+        <h2 style={{ fontSize: "40px", marginBottom: "40px", color: "#6B4226" }}>
           Our Menu 🍰
         </h2>
 
@@ -129,19 +129,19 @@ function App() {
           <div style={cardStyle}>
             <h3>Classic Misu</h3>
             <p>Soft & creamy classic tiramisu</p>
-            <h4>21K</h4>
+            <h4>24.000</h4>
           </div>
 
           <div style={cardStyle}>
             <h3>Choco Misu</h3>
             <p>Chocolate tiramisu with cocoa topping</p>
-            <h4>22K</h4>
+            <h4>25.000</h4>
           </div>
 
           <div style={cardStyle}>
             <h3>Matcha Misu</h3>
             <p>Premium matcha creamy dessert</p>
-            <h4>22K</h4>
+            <h4>25.000</h4>
           </div>
         </div>
       </section>
@@ -152,10 +152,10 @@ function App() {
         style={{
           padding: "60px 20px",
           textAlign: "center",
-          background: "#FFEFF5",
+          background: "#FFD1DC",
         }}
       >
-        <h2 style={{ fontSize: "40px" }}>About Us 💕</h2>
+        <h2 style={{ fontSize: "40px", color: "#6B4226" }}>About Us 💕</h2>
 
         <p
           style={{
@@ -178,7 +178,8 @@ function App() {
           textAlign: "center",
         }}
       >
-        <h2 style={{ fontSize: "40px", marginBottom: "40px" }}>
+        <h2 style={{ fontSize: "40px", marginBottom: "40px", color: "#6B4226"
+      }}>
           Customer Reviews ⭐
         </h2>
 
@@ -191,18 +192,28 @@ function App() {
           }}
         >
           <div style={testimonialStyle}>
-            <p>"Creamy banget dan tidak eneg!"</p>
-            <h4>- Customer</h4>
+            <p>"Tiramisunya enak ada asinnya, ada paitnya tapi aku paling suka yang coklat"</p>
+            <h4>- Customer Kak Vita</h4>
+          </div>
+
+<div style={testimonialStyle}>
+            <p>"Enak kaaa, dimakan adek ku juga enak katanya</p>
+            <h4>- Customer Kak Erin</h4>
           </div>
 
           <div style={testimonialStyle}>
-            <p>"Harga ekonomis tapi rasa cafe."</p>
-            <h4>- Customer</h4>
+            <p>"Enak bubuknya kan ga manis yah jadi balance, pas sih di aku, ga yang enek kemanisan gituu</p>
+            <h4>- Customer Ms Bulan</h4>
           </div>
 
           <div style={testimonialStyle}>
-            <p>"Packaging lucu dan aesthetic."</p>
-            <h4>- Customer</h4>
+            <p>"Krimnya gak eneg, balance antara coklat bubuk sama krimnya"</p>
+            <h4>- Customer Kak Disyah</h4>
+          </div>
+
+          <div style={testimonialStyle}>
+            <p>"Ihhhh aku suka banget sama bagian krimnya yang super creamy. Terus ada bubuk cokelat di atasnya bikin tiramisunya makin enak."</p>
+            <h4>- Customer Valentina</h4>
           </div>
         </div>
       </section>
